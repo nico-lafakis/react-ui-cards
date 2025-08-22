@@ -1,8 +1,0 @@
-{
-  "appFunctions": {
-    "getAssociatedInvoice": {
-      "file": "example-function.js",
-      "secrets": []
-    }
-  }
-}
