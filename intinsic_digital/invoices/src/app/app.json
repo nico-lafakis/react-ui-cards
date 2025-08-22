@@ -1,0 +1,27 @@
+{
+  "name": "Invoice Card App",
+  "description": "App to display related invoices based on location_id",
+  "uid": "invoice-card-app",
+  "scopes": [
+    "collector.graphql_query.execute",
+    "collector.graphql_schema.read",
+    "crm.objects.custom.read",
+    "crm.objects.custom.write",
+    "crm.schemas.custom.read",
+    "crm.schemas.custom.write",
+    "crm.objects.invoices.read",
+    "crm.objects.invoices.write",
+    "crm.schemas.invoices.read",
+    "crm.schemas.invoices.write"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./extensions/invoice-card.json"
+        }
+      ]
+    }
+  }
+}

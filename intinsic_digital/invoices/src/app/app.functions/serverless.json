@@ -1,0 +1,7 @@
+{
+  "appFunctions": {
+    "getInvoices": {
+      "file": "getInvoices.js"
+    }
+  }
+}

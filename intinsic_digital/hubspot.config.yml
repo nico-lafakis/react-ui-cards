@@ -1,0 +1,14 @@
+defaultPortal: intrinsic
+portals:
+  - name: intrinsic
+    portalId: 7954923
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          PERSONAL_ACCESS_TOKEN_GOES_HERE
+        expiresAt: '2025-07-16T05:04:15.010Z'
+    accountType: STANDARD
+    personalAccessKey: >-
+      PERSONAL_ACCESS_KEY_GOES_HERE

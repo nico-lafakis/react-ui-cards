@@ -1,0 +1,25 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Related Invoices",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "InvoiceCard.jsx"
+    },
+    "serverless": {
+      "serverlessFunctions": [
+        {
+          "functionName": "getInvoices"
+        }
+      ]
+    },
+    "objectTypes": [
+      {
+        "name": "p_properties",
+        "properties": [
+          "location_id"
+        ]
+      }
+    ]
+  }
+}
