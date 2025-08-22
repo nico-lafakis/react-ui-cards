@@ -1,0 +1,27 @@
+{
+  "name": "Invoice Association Extension",
+  "description": "Shows the linked Invoice on Conference records",
+  "public": false,
+  "uid": "invoice_association_card",
+  "scopes": [
+    "crm.schemas.custom.read",
+    "crm.objects.custom.read",
+    "crm.objects.custom.write",
+    "crm.schemas.custom.write",
+    "crm.objects.invoices.write",
+    "crm.schemas.invoices.write",
+    "crm.objects.invoices.read",
+    "crm.schemas.invoices.read",
+    "collector.graphql_schema.read",
+    "collector.graphql_query.execute"
+  ],
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/example-card.json"
+        }
+      ]
+    }
+  }
+}
